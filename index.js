@@ -1,10 +1,14 @@
 const express = require("express");
 // const {users}= require("./data/users.json"); // Use in case of not using separate routing.
+const dotenv = require("dotenv");
+const DbConnection = require("./databaseConnection");
 
 const usersRouter = require("./routes/users");
 const booksRouter = require("./routes/books");
 
+dotenv.config();
 const app = express();
+DbConnection();
 
 const PORT = 8081;
 

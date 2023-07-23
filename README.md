@@ -8,6 +8,8 @@ This is a book record management API Backend for the management of records and b
 
 "https://documenter.getpostman.com/view/23764382/2s946eBECc"
 
+<h1>Below are just some examples of BiblioTrex Request, we can have many more too.</h1>
+
 # Routes and Endpoints
 
 ## /users

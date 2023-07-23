@@ -1,18 +1,22 @@
 const express = require("express");
 // const {users}= require("./data/users.json"); // Use in case of not using separate routing.
+const dotenv = require("dotenv");
+const DbConnection = require("./databaseConnection");
 
 const usersRouter = require("./routes/users");
 const booksRouter = require("./routes/books");
 
+dotenv.config();
 const app = express();
 
+DbConnection();
 const PORT = 8081;
 
 app.use(express.json());
 
 app.get("/", (req, res) => {
   res.status(200).json({
-    message: "Server is Up and World",
+    message: "Server is Up and Working",
   });
 });
 

@@ -1,6 +1,6 @@
 # Bibliotrex
 
-"Bibliotrex: The ENic Library Manager" is a feature-rich book record management system built with Express.js and Node.js stack. It offers efficient organization, easy cataloging, seamless user experience, and robust functionality for libraries and bookstores.
+"Bibliotrex: The MENic Library Manager" is a feature-rich book record management system built with Express.js and Node.js stack. It offers efficient organization, easy cataloging, seamless user experience, and robust functionality for libraries and bookstores.
 
 This is a book record management API Backend for the management of records and books
 
